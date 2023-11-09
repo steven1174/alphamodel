@@ -4,7 +4,7 @@ Data Source - Data Input Manager
 import logging
 import numpy as np
 import pandas as pd
-import quandl
+import nasdaqdatalink as quandl
 
 from abc import ABCMeta, abstractmethod
 from datetime import datetime
